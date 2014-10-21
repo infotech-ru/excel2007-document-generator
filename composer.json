@@ -1,0 +1,26 @@
+{
+    "name": "infotech/excel2007-document-generator",
+    "description": "Excel2007 renderer for infotech/document-generator.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Tyutin",
+            "email": "anton@tyutin.ru"
+        }
+    ],
+    "require": {
+        "infotech/document-generator": "0.1.*"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*",
+        "phpoffice/phpexcel": "1.8.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Infotech\\Excel2007DocumentGenerator\\": "src"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
